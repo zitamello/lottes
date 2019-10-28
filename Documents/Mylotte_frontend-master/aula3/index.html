@@ -1,0 +1,68 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Gifs Animados</title>
+      <script src="jquery.js"></script>
+      <script src="semantic.js"></script>
+      <script src="app.js"></script>
+      <link rel="stylesheet" href="semantic.css">
+
+      <style media="screen">
+        .ui.menu {
+          border-radius: 0px;
+        }
+
+        body {
+          background: #F4F4F4
+        }
+
+        .search.item{
+          flex: 1 0 0 !important;
+        }
+
+        #grid {
+          column-count: 8;
+          column-gap: 1em;
+          padding: 1rem;
+          margin-top: 60px;
+        }
+
+        #grid .gif {
+          background: white;
+          padding: 0.5em;
+          display: inline-block;
+          margin: 0 0 1em;
+          width: 100%;
+        }
+
+        #grid .gif img {
+          width: 100%;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="ui inverted fixed menu">
+        <div class="header item">
+          <a href="#">GIFS ANIMADOS</a>
+        </div>
+        <div class="search item">
+          <div class="ui icon input">
+            <input type="text" placeholder="Burcar...">
+            <i class="search icon"></i>
+          </div>
+        </div>
+        <div class="item">
+          <a href="#">Entrar</a>
+        </div>
+        <div class="item">
+          <a href="#">Criar uma conta</a>
+        </div>
+        <div class="item">
+          <a href="#">Enviar um GIF</a>
+        </div>
+      </div>
+
+      <div id="grid"></div>
+  </body>
+</html>

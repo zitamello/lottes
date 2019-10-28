@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bem-Vindo ao MyLottes!!</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css"> <-->
+    <!-- Add custom stylesheet here -->
+    <link rel="stylesheet" href="/home/zita/Documents/MyLotte/CSS/indexFornecedor.css">
+
+  </head>
+  <body>
+
+    <!-- Write your html code here -->
+    <div id="topNav" class="divTop">
+    </div>
+      <div class="logoDiv">
+         <a href="/home/zita/Documents/MyLotte/index.html"> <img class="logo" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/lotteLogo.png">
+         </a>
+      </div>
+      <div class="fornIcons">
+          <button class="openLote">
+            <a href="/home/zita/Documents/MyLotte/openLoteComp.html"> <img class= "package" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/package.png"> <p class="openIcon"> Abrir um lote de Venda
+            </a>  
+            </button>
+
+      </div>
+      <div class="searchBarDiv">
+            <input class="search" type="text" placeholder="Pesquisar Produtos">
+            <!--<button class="topButn"> <p class="pvenda"> Á Venda </p> </button>
+            <img class="seta" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/seta p baixo.png">-->
+            <button class="filter"> Pesquisar </button>
+      </div>
+      <div class="loginDiv">
+              <button class="loginBtn" onclick="document.getElementById('id01')" > Sair
+              <img class ="loginIcon" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/sair.png">
+              </button>
+              <!-- Abrir Formulario Login -->
+        </form>
+      </div>
+    </div>
+  <!-- Fim do Formulario Login -->
+  <div class="aboutdiv">
+   <button id="myBtn" class="aboutBtn"> Sobre Nós
+    </button>
+    </div>
+    <div id="myModal" class="aboutModal">
+
+  <!-- Modal content -->
+  <div class="aboutModal-content">
+    <div class="aboutModal-header">
+      <span class="close">&times;</span>
+      <h2>Sobre Nós</h2>
+    </div>
+      <div class="aboutModal-body">
+      <p>O MyLottes é um projeto desenvolvido por André Gomes e Zita Mello para a disciplina de Estágio II, em referencia ao semestre 2019.2</p>
+      <p>MyLottes é um site que permite que fornecedores e compradores de diversas empresas possam vender e comprar seus produtos de maneira mais comunitária e eficiente. </p>
+      <p> Através de nossa aplicação é possível que diversos compradores diferentes possam ratear produtos em grande quantitades de lotes, permitindo uma nova maneira de negociação para o setor de vendas e compra varejo e atacado. </p>
+    </div>
+    <div class="modal-footer">
+      <h4>MyLottes é um projeto acadêmico desenvolvido por estudates para aprimoração de seus conhecimentos em aplicações web. E não se utiliza de sistema monetario algum.</h4>
+    </div>
+  </div>
+
+</div>
+
+  <div class="sideBarDiv">
+    <ul>
+     <li><a href="#home">Categorias</a></li>
+      <li><a href="/home/zita/Documents/MyLotte/lotesVenda.html">Meus Lotes de Compra </a></li>
+      <li><a href="/home/zita/Documents/MyLotte/lotesCompra.html">Meus Lotes de Venda</a></li>
+      <li><a href="/home/zita/Documents/MyLotte/encerraLotes.html">Lotes a encerrar</a></li>
+    </ul>
+
+    </div>
+
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img class="imgSlide" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/sale.jpg" style="width:100%">
+
+      </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img class="imgSlide"src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/sale2.jpg" style="width:100%">
+
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img class="imgSlide" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/sale3.jpg" style="width:100%">
+
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+
+ <div id="stepNav" class="divSteps">
+     <p class="stepsTitle">NOSSO SERVIÇOS À SUA DISPOSIÇÃO</p>
+     <div class="stepsLine">
+     </div>
+    <!-- <p class="stepsWords"> Comprar e Vender produtos em montantes nunca foi tão fácil. </p> -->
+     <a class="step1Link" href="#cadastro">
+     <img class="step1" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/step1.jpg" alt="Primeiro Passo"> </a>
+     <a class="step2Link" href="#lotes">
+         <img class="step2" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/step2.jpg" alt="Segundo Passo">
+     </a>
+     <a class="step3Link" href="#lotes">
+     <img class="step3" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/step3.jpg" alt="Terceiro Passo">
+     </a>
+     <a class="step4Link" href="#checkout" alt="Quarto Passo">
+         <img class="step4" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/step4.jpg">
+     </a>
+     <div class="content1">
+       <p class="p1step1"> Cadastre-se e torne-se um de nossos colaboradores!</p>
+       <img class="medalha1" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/medalha1.png">
+     </div>
+     <div class="content2">
+           <p class="p1step2"> Anuncie lotes de produtos para seu negócio. </p>
+         <img class="medalha2" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/medalha2.png">
+     </div>
+     <div class="content3">
+         <p class="p1step3"> Compre e venda montantes a seu preço.</p>
+         <img class="medalha3" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/medalha3.png">
+     </div>
+     <div class="content4">
+         <p class="p1step4"> Seu negócio feito ao melhor custo benefício.</p>
+         <img class="medalha4" src="/home/zita/Documents/MyLotte/Projeto Estagio II - Lotes/imagens/medalha4.png">
+     </div>
+   </div>
+       <div class="footerMenu">
+           <hr class="footerLine">
+           <footer id="ui-footer" class="pageFooter">
+          <p class="footerWords"> Website produzido por André Gomes e Zita Mello para a disciplina de Estágio II. </p>
+   </footer>
+
+
+<script>
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+var slideIndex2 = 0;
+showSlidesAuto();
+
+function showSlidesAuto() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) {slideIndex2 = 1}
+  slides[slideIndex2-1].style.display = "block";
+  setTimeout(showSlidesAuto, 2500); // Change image every 2 seconds
+}
+
+var modal2 = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal2.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+    </script>
+  </body>
+</html>
